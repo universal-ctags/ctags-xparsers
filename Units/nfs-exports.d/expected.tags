@@ -1,0 +1,8 @@
+/	input.exports	/^\/               master(rw) trusty(rw,no_root_squash)$/;"	f
+/build	input.exports	/^\/build          buildhost[0-9].local.domain(rw)$/;"	f
+/foo	input.exports	/^\/foo            2001:db8:9:e54::\/64(rw) 192.0.2.0\/24(rw)$/;"	f
+/home/joe	input.exports	/^\/home\/joe       pc001(rw,all_squash,anonuid=150,anongid=100)$/;"	f
+/projects	input.exports	/^\/projects       proj*.local.domain(rw)$/;"	f
+/pub	input.exports	/^\/pub            *(ro,insecure,all_squash)$/;"	f
+/srv/www	input.exports	/^\/srv\/www        -sync,rw server @trusted @external(ro)$/;"	f
+/usr	input.exports	/^\/usr            *.local.domain(ro) @trusted(rw)$/;"	f

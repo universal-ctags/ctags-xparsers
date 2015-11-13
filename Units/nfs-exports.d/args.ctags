@@ -1,0 +1,2 @@
+--options=nfs-exports
+--languages=+nfs-exports

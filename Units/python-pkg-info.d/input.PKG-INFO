@@ -1,0 +1,10 @@
+Metadata-Version: 1.0
+Name: ioprocess
+Version: 0.14.0
+Summary: Creates a subprocess in simpler safer manner
+Home-page: github.com/ficoos/ioprocess
+Author: Saggi Mizrahi
+Author-email: ficoos@gmail.com
+License: GNU GPLv2+
+Description: UNKNOWN
+Platform: UNKNOWN

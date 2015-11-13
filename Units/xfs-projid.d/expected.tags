@@ -1,0 +1,4 @@
+10	input.xfs-projid	/^cage:10$/;"	i
+42	input.xfs-projid	/^logfiles:42$/;"	i
+cage	input.xfs-projid	/^cage:10$/;"	p
+logfiles	input.xfs-projid	/^logfiles:42$/;"	p

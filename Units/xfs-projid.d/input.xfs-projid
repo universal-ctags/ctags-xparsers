@@ -1,0 +1,6 @@
+# Taken from projid man page
+# ---------------------------
+# comments are hash-prefixed
+# ...
+cage:10
+logfiles:42

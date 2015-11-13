@@ -1,0 +1,9 @@
+# name            <active_objs> <num_objs> <objsize> <objperslab> <pagesperslab> : tunables <limit> <batchcount> <sharedfactor> : slabdata <active_slabs> <num_slabs> <sharedavail>
+fuse_request           0     60    400   20    2 : tunables    0    0    0 : slabdata      3      3      0
+fuse_inode             1     23    704   23    4 : tunables    0    0    0 : slabdata      1      1      0
+nf_conntrack_ffff8808480f8000      0      0    320   25    2 : tunables    0    0    0 : slabdata      0      0      0
+nf_conntrack_ffffffff81cd5380    900    900    320   25    2 : tunables    0    0    0 : slabdata     36     36      0
+squashfs_inode_cache 1631357 1631450    640   25    4 : tunables    0    0    0 : slabdata  65258  65258      0
+ext4_groupinfo_1k     63     90    136   30    1 : tunables    0    0    0 : slabdata      3      3      0
+kvm_vcpu               0      0  16384    2    8 : tunables    0    0    0 : slabdata      0      0      0
+kvm_mmu_page_header      0      0    168   24    1 : tunables    0    0    0 : slabdata      0      0      0

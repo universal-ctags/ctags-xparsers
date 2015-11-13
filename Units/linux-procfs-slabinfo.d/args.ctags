@@ -1,0 +1,2 @@
+--options=linux-procfs-slabinfo
+--languages=+linux-procfs-slabinfo

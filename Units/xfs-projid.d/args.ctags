@@ -1,0 +1,2 @@
+--options=xfs-projid
+--languages=+xfs-projid
