@@ -85,3 +85,9 @@ if ! mkdir -p ./libexec; then
 else
     echo done
 fi
+
+echo -n datadir...
+for d in Units/*.d; do
+    (cd $d; ln -f -s ../../data/optlib ./optlib)
+done
+echo done
