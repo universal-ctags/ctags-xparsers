@@ -24,6 +24,5 @@
 	--map-xfs-projid=+(projid)
 	--map-xfs-projid=+.xfs-projid
 	--regex-xfs-projid=/^#.*//{exclusive}
-	--regex-xfs-projid=/^([^:]+):.*/\1/p,project,projects/
-	--regex-xfs-projid=/^[^:]+:(.+)/\1/i,id,project ids/
-
+	--regex-xfs-projid=/^([^:]+):[0-9]+$/\1/p,project,projects/
+	--regex-xfs-projid=/^[^:]+:([0-9]+)$/\1/i,id,project ids/
