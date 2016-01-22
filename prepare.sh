@@ -88,6 +88,6 @@ fi
 
 echo -n datadir...
 for d in Units/*.d; do
-    (cd $d; ln -f -s ../../data/optlib ./optlib)
+    (cd $d; ln -f -s ../../optlib ./optlib)
 done
 echo done
