@@ -1,7 +1,7 @@
 ctags-xparsers is an archive collecting minor external parsers for universal-ctags
 
-For trying you have to build universal-ctags cloned from its git
-repository first and understand "units" test harness of
+For trying this archive, you have to build universal-ctags cloned from
+its git repository first and understand "units" test harness of
 universal-ctags.
 
 
