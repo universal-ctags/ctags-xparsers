@@ -1,0 +1,6 @@
+CONFIG_FAT_DEFAULT_IOCHARSET	input.dotconfig	/^CONFIG_FAT_DEFAULT_IOCHARSET="ascii"$/;"	d
+CONFIG_NTFS_FS	input.dotconfig	/^# CONFIG_NTFS_FS is not set$/;"	D
+CONFIG_X86_64	input.dotconfig	/^CONFIG_X86_64=y$/;"	d
+FAT_DEFAULT_IOCHARSET	input.dotconfig	/^CONFIG_FAT_DEFAULT_IOCHARSET="ascii"$/;"	c
+NTFS_FS	input.dotconfig	/^# CONFIG_NTFS_FS is not set$/;"	C
+X86_64	input.dotconfig	/^CONFIG_X86_64=y$/;"	c
